@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+
+		<img src="https://nordot-res.cloudinary.com/c_limit,w_800,f_auto,q_auto:eco/ch/images/679160425876358241/origin_1.jpg">
+
+		<script type = "text/javascript">
+
+		img.addEventListener('mouseover', ()=> {
+			alert("Isn't it so cute?")
+		});
+
+		</script>
+
+		<p>Hi, funny seeing you here. Welcome to my world. I hope you enjoy your stay</p>
+
+		<ul>
+			<li>You is kind</li>
+			<li>You is smart</li>
+			<li>You is beautiful</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			How did you hear about us?:
+			<form>
+				<label for="google">Google:</label><input type="checkbox" id="google" value="google"/>
+				<label for="a friend">A friend:</label><input type="checkbox" id="a friend" value="a friend"/>
+				<label for="other">Other:</label><input type="checkbox" id="other" value="other"/>
+			  </form>
+
+			<script type = "text/javascript">  
+            function fun() {  
+  
+  
+               alert ("Your form has successfully been submitted");  
+            }  
+      		</script>       
+			<input type = "button" value = "Submit" onclick = "fun();" />  
+      		</form>       
+	 
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.flex-example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+  background: #E2A3C7;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid #F5E0EC;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: #D67AB1;
+}
+
+a:visited {
+	color: #60435F;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: #F7D6E0;
+    color: white;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
